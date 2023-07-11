@@ -12,6 +12,7 @@ import { dbConnection } from './database/index';
 import { Routes } from '@interfaces/routes.interface';
 import { ErrorMiddleware } from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
+import {limiter} from "./middlewares/rate-limiter.middleware";
 
 export class App {
   public app: express.Application;
@@ -59,6 +60,7 @@ export class App {
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(cookieParser());
+    this.app.use(limiter);
     this.app.use(express.static('./public'))
     this.app.set("view engine","ejs")
     this.app.set('views', './src/views');
