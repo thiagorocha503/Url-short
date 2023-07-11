@@ -62,7 +62,7 @@
     "eslint-plugin-node": "^11.1.0",
     "find": "^0.3.0",
     "fs-extra": "^11.1.1",
-    "jasmine": "^4.6.0",
+    "jasmine": "^5.0.2",
     "nodemon": "^2.0.22",
     "supertest": "^6.3.3",
     "ts-node": "^10.9.1",
