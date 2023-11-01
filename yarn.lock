@@ -1219,10 +1219,10 @@
     "@types/mime" "*"
     "@types/node" "*"
 
-"@types/shortid@^0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/shortid/-/shortid-0.0.29.tgz#8093ee0416a6e2bf2aa6338109114b3fbffa0e9b"
-  integrity sha512-9BCYD9btg2CY4kPcpMQ+vCR8U6V8f/KvixYD5ZbxoWlkhddNF5IeZMVL3p+QFUkg+Hb+kPAG9Jgk4bnnF1v/Fw==
+"@types/shortid@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@types/shortid/-/shortid-0.0.31.tgz#d97dcce0fd149915e51ccba01cf78fea1d7c170f"
+  integrity sha512-Ftfjb0YCx3ZKqOicoX/UsbuC5kpxqCN7k41rs1JYPQoe+sUsLhugfb3ow0MJ/pt4aPNlX5X9o084HSoVteoNmA==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
